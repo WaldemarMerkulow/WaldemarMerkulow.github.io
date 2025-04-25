@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WaldemarMerkulow Game</title>
+    <style>
+        body { margin: 0; }
+        #gameContainer { width: 100%; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="gameContainer"></div>
+    <script src="WaldemarMerkulow.github.io.loader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate(
+            "gameContainer", 
+            "WaldemarMerkulow.github.io.json"
+        );
+    </script>
+</body>
+</html>
